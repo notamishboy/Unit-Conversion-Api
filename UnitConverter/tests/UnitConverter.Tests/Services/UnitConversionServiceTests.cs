@@ -68,7 +68,7 @@ public sealed class UnitConversionServiceTests
             Value = 10m
         });
 
-        Assert.Equal(22.04622621848775714699670600m, result.ConvertedValue);
+        Assert.Equal(22.046226218487758072297380135m, result.ConvertedValue);
     }
 
     [Fact]
